@@ -14,11 +14,9 @@ from PIL import Image
 import pyautogui
 import random
 
-CHAT_NAME = 'Fazil' # Group Name
+CHAT_NAME = '' # Group Name
 
-TARGET_LIST = ['Rati Gupta', 'Rohit', 'Pradeep kumar Dwivedi', 'Me'] # Add zoom sender name
-
-ZOOM_FULL_PATH = r'C:\Users\Arshad\AppData\Roaming\Zoom\bin\Zoom.exe'
+ZOOM_FULL_PATH = r''
 
 Meme_Search_list = ['dank memes', 'memes', 'most upvoted memes', 'new memes', 'cid memes']
 
@@ -145,12 +143,7 @@ def get_meme():
                 break
         return src
                     
-            
-
-
-
-
-
+      
 
 #main block
 if __name__ == '__main__':
